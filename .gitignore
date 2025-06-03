@@ -1,2 +1,16 @@
 Assignment_1/RLLBC_BPA_1_SS25.pdf
 Assignment_1/student_guide.MD
+
+# Python
+__pycache__/
+*.py[cod]
+*.so
+*.egg
+*.egg-info/
+dist/
+build/
+
+
+# Jupyter
+.ipynb_checkpoints
+.virtual_documents
