@@ -1,0 +1,24 @@
+experiment_parameters:
+  exp_name: DQN
+  env_id: CartPole-v1
+  device: cpu
+  seed: 2
+  run_name: CartPole-v1__DQN__2__250619_201811
+  enable_wandb_logging: true
+  capture_video: true
+  eval_agent: true
+  eval_count: 10
+  eval_frequency: 50
+  exp_type:
+hyperparameters:
+  total_timesteps: 1000000
+  learning_rate: 0.0002
+  gamma: 0.99
+  buffer_size: 50000
+  target_network_frequency: 500
+  batch_size: 64
+  start_e: 1
+  end_e: 0.05
+  exploration_fraction: 0.3
+  start_learning: 1000
+  train_frequency: 10
